@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: #F6F8FA;
+    border-bottom: 1px solid #D8DEE4;
+    padding: 0px 120px;
+    display: flex;
+    align-items: center;
+}
+
+header h3 {
+    font-weight: 300;
+}
+
+.main_container {
+    margin: 20px 120px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #D8DEE4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.card_1 h4 {
+    font-weight: 300;
+}
+
+.card_1 img {
+    height: 120px;
+}
+
+.temperature_text {
+    text-align: center;
+    color: #00AFFF;
+}
+
+.temperature_text h2{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.bottom_text {
+    display: flex;
+    text-align: center;
+    gap: 70px;
+}
+
+.left h4 {
+    color: #03cf9f;
+    font-size: 14px;
+}
+
+.right h4 {
+    color: #e44b4b;
+    font-size: 14px;
+}
+
+.left h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.right h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.card_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #D8DEE4;
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+.card_2 .add_symbol {
+    width: 120px;
+}
+
+.card_2 .city {
+    width: 300px;
+}
+
+.card_2 h4 {
+    font-weight: 300;
+}
+
+.card_2:hover{
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
